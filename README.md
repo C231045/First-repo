@@ -224,3 +224,7 @@ CSE Student, IIUC
 Batch: 2024-25
 Student ID: C231045
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7570c030628952ffd8eafcb2450d1014e68344ed
