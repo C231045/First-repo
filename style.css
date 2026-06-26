@@ -872,6 +872,35 @@
         }
 
         @media (max-width: 640px) {
+           body{
+    overflow-x:hidden;
+}
+
+.container{
+    padding:20px;
+}
+
+.hero-section{
+    gap:25px;
+}
+
+.hero-text{
+    text-align:center;
+}
+
+.hero-text p{
+    max-width:100%;
+}
+
+nav{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.logo{
+    font-size:22px;
+}
+
             header {
                 flex-direction: column;
                 gap: 15px;
@@ -879,15 +908,23 @@
                 text-align: center;
             }
             nav {
-                gap: 15px;
-                font-size: 14px;
+                gap: 10px;
+                font-size: 13px;
+                flex-wrap:wrap;
             }
             .hero-text h1 {
-                font-size: 38px;
+                font-size: 32px;
             }
+            .hero-text h2{
+    font-size:20px;
+}
+
+.hero-text p{
+    font-size:15px;
+}
             .profile-wrapper {
-                width: 260px;
-                height: 260px;
+                width: 220px;
+                height: 220px;
             }
             .highlight-grid {
                 grid-template-columns: 1fr;
@@ -924,6 +961,37 @@
 .publication-grid {
     grid-template-columns: 1fr;
 }
+        img{
+    max-width:100%;
+    height:auto;
+}
+
+section{
+    margin-bottom:60px;
+}  
+  .hobbies-grid,
+.publication-grid {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+}
+
+.hobby-card,
+.publication-card {
+    width: 100%;
+    max-width: 100%;
+}
+
+.achievement-box {
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.achievement-content {
+    border-left: none;
+    padding-left: 0;
+}
+
         }
         .highlight-card,
         .skill-icon-box,
