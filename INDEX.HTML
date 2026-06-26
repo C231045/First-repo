@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdur Rahman - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    
+<body>
+    <header>
+        <div class="logo">ABDUR RAHMAN</div>
+        <nav>
+    <a href="#home">Home</a>
+     <a href="#achievements">Achievements</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+            
+            <div class="toggle-switch" id="themeToggleBtn" onclick="toggleTheme()">
+                <i class="fa-solid fa-sun"></i>
+                <i class="fa-solid fa-moon"></i>
+                <div class="ball"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <section id="home" class="hero-section">
+            <div class="hero-text">
+                <span class="intro-tag">Hi, I'm</span>
+                <h1>ABDUR <span>RAHMAN</span></h1>
+                <h2>CSE Student at <span>IIUC</span></h2>
+                <p>A passionate Computer Science and Engineering student at International Islamic University Chittagong. I enjoy programming, building web applications and solving real world problems.</p>
+                
+                <div class="btn-container">
+                    <a href="#about" class="btn-primary"><i class="fa-regular fa-user"></i> About me</a>
+                    <a href="#academic" class="btn-secondary"><i class="fa-solid fa-laptop-code"></i> Projects</a>
+                 <a href="Abdur_Rahman_CV.pdf" download class="btn-secondary">
+                <i class="fa-solid fa-download"></i> Download CV</a>
+                </div>
+
+                <div class="social-links">
+                    <span>Follow Me:</span>
+                    <a href="https://github.com/C231045" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/abdur.rahman.17011?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/abdur-rahman-167703261/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image-container">
+                <div class="profile-wrapper">
+                    <img src="download.png" alt="Abdur Rahman" onerror="this.onerror=null; this.src='https://placehold.co/400x400/0F766E/FFF?text=Abdur+Rahman';">
+                </div>
+            </div>
+        </section>
+
+        <div class="highlight-grid">
+            <div class="highlight-card">
+                <i class="fa-solid fa-laptop"></i>
+                <div>
+                    <h4>Department</h4>
+                    <p>Computer Science & Engineering</p>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <i class="fa-solid fa-building-columns"></i>
+                <div>
+                    <h4>University</h4>
+                    <p>International Islamic University Chittagong (IIUC)</p>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                    <h4>Current Semester</h4>
+                    <p>3rd Semester</p>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <i class="fa-solid fa-bullseye"></i>
+                <div>
+                    <h4>Focus</h4>
+                    <p>Web Dev, Problem Solving & Software Eng.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="three-panel-grid">
+            <div class="panel-box">
+                <h3>Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-icon-box">
+                        <span style="font-weight:800; font-size:16px;">C</span>
+                        <span>C</span>
+                    </div>
+                    <div class="skill-icon-box">
+                        <span style="font-weight:800; font-size:16px; color:#3B82F6;">C++</span>
+                        <span>C++</span>
+                    </div>
+                    <div class="skill-icon-box">
+                        <i class="fa-brands fa-java" style="color:#EA580C;"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-icon-box">
+                        <i class="fa-brands fa-python" style="color:#0284C7;"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-icon-box">
+                        <i class="fa-brands fa-html5" style="color:#EA580C;"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-icon-box">
+                        <i class="fa-brands fa-css3-alt" style="color:#2563EB;"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-icon-box">
+                        <i class="fa-brands fa-js" style="color:#CA8A04;"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-icon-box">
+                        <i class="fa-brands fa-git-alt" style="color:#DC2626;"></i>
+                        <span>Git</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-box">
+                <h3>Education</h3>
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h4>B.sc in CSE</h4>
+                            <span class="tag">Present</span>
+                        </div>
+                        <p>International Islamic University Chittagong (IIUC)</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h4>HSC</h4>
+                            <span class="tag" style="background-color:#E2E8F0; color:#475569;">2021</span>
+                        </div>
+                        <p>Hazera Taju University College</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h4>SSC</h4>
+                            <span class="tag" style="background-color:#E2E8F0; color:#475569;">2019</span>
+                        </div>
+                        <p>Shah Waliullah Institute</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-box">
+                <h3>Areas of Interest</h3>
+                <div class="interest-grid">
+                    <div class="interest-card">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <div>
+                            <h5>Web</h5>
+                            <p>Development</p>
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                        <div>
+                            <h5>Problem</h5>
+                            <p>Solving</p>
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fa-solid fa-microchip"></i>
+                        <div>
+                            <h5>Software</h5>
+                            <p>Engineering</p>
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fa-solid fa-palette"></i>
+                        <div>
+                            <h5>UI/UX</h5>
+                            <p>Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="counter-banner">
+            <div class="counter-item">
+                <h3><i class="fa-solid fa-wallet"></i> 8+</h3>
+                <p>Programming Skills</p>
+            </div>
+            <div class="counter-item">
+                <h3><i class="fa-solid fa-book"></i> 40+</h3>
+                <p>Courses Completed</p>
+            </div>
+            <div class="counter-item">
+                <h3><i class="fa-solid fa-graduation-cap"></i> 3rd</h3>
+                <p>Current Semester</p>
+            </div>
+            <div class="counter-item">
+                <h3><i class="fa-solid fa-trophy"></i> Goal</h3>
+                <p>To become a skilled Software Engineer</p>
+            </div>
+        </div>
+          <section id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-box">
+        <h3>Hello, I'm Abdur Rahman</h3>
+
+        <p>
+            I am a Computer Science and Engineering student at
+            International Islamic University Chittagong (IIUC).
+            I am passionate about programming, web development,
+            software engineering and problem solving.
+            I have completed 40+ courses and continuously
+            improve my technical skills through academic projects,
+            self-learning and practical development work.
+            My goal is to become a professional Software Engineer
+            and contribute to innovative technology solutions.
+        </p>
+    </div>
+</section>
+        <section id="academic">
+            <h2 class="section-title">Academic Projects</h2>
+            
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <span class="project-tag">Concept</span>
+                    <div class="project-icon"><i class="fa-solid fa-code"></i></div>
+                    <div class="project-info">
+                        <h3>Student Result Management System</h3>
+                        <p>A comprehensive web application designed to manage, calculate, and publish student academic grades and reports smoothly.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <span class="project-tag">Course Project</span>
+                    <div class="project-icon"><i class="fa-solid fa-file-invoice"></i></div>
+                    <div class="project-info">
+                        <h3>Library Management System</h3>
+                        <p>An efficient backend and registry system to manage books collection, users tracking, borrowing history, and auto fines calculators.</p>
+                    </div>
+                </div>
+               
+                <div class="project-card">
+                    <span class="project-tag">Course Project</span>
+                    <div class="project-icon"><i class="fa-solid fa-building-columns"></i></div>
+                    <div class="project-info">
+                        <h3>Bank ATM Simulation</h3>
+                        <p>An interactive simulated terminal console system mimicking secure login, deposits, withdrawals, and balance verification actions.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <span class="project-tag">Course Project</span>
+                    <div class="project-icon"><i class="fa-solid fa-address-card"></i></div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>This responsive modern single page application website representing CV, educational, technical and contacts.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="double-column-grid">
+                <div class="column-panel">
+                    <h3><i class="fa-regular fa-square-check"></i> Relevant Coursework</h3>
+                    <div class="list-items">
+                        <div class="list-item">
+                            <span>Structured Programming</span>
+                            <span class="badge">Core</span>
+                        </div>
+                        <div class="list-item">
+                            <span>Database Systems</span>
+                            <span class="badge">Core</span>
+                        </div>
+                        <div class="list-item">
+                            <span>Data Structures</span>
+                            <span class="badge">Core</span>
+                        </div>
+                        <div class="list-item">
+                            <span>Object-Oriented Programming</span>
+                            <span class="badge">Core</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column-panel">
+                    <h3><i class="fa-solid fa-people-group"></i> Extra-Curricular Activities</h3>
+                    <div class="list-items">
+                        <div class="list-item with-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>Programming Practice</span>
+                        </div>
+                        <div class="list-item with-icon">
+                            <i class="fa-solid fa-pen-nib"></i>
+                            <span>Learning UI/UX Design</span>
+                        </div>
+                        <div class="list-item with-icon">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <span>Learning Web Development</span>
+                        </div>
+                        <div class="list-item with-icon">
+                            <i class="fa-solid fa-users-rectangle"></i>
+                            <span>Team Collaboration in Lab Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="career-goal-box">
+                <h4>My Career Goal</h4>
+                <p>My goal is to become a highly skilled Software Engineer who designs and develops innovative, scalable, and user-focused software solutions. I am committed to continuously improving my technical expertise, solving real-world problems, and contributing to impactful projects that create value for users and businesses.</p>
+            </div>
+        </section>
+        
+        <section id="achievements">
+
+    <h2 class="section-title">My Achievements</h2>
+
+    <div class="achievement-box">
+
+        <div class="achievement-year">
+            <h3>2024</h3>
+        </div>
+
+        <div class="achievement-content">
+
+            <div class="achievement-item">
+                <h4>An Introduction to Human Rights</h4>
+                <p>Certified by Amnesty Academy</p>
+
+                 <a href="certificates/download1.jpg" target="_blank" class="certificate-btn">
+                    View Certificate
+          </a>
+            </div>
+
+            <div class="achievement-item">
+                <h4>Police and Human Rights</h4>
+                <p>Certified by Amnesty Academy</p>
+            
+            
+              <a href="certificates/download2.jpg" target="_blank" class="certificate-btn">
+              View Certificate
+              </a>
+            </div>
+            <div class="achievement-item">
+                <h4>Economic, Social and Cultural Rights</h4>
+                <p>Certified by Amnesty Academy</p>
+            
+
+            <a href="certificates/download3.jpg" target="_blank" class="certificate-btn">
+                  View Certificate
+           </a>
+        </div>
+        </div>
+
+    </div>
+     <div class="achievement-box">
+
+    <div class="achievement-year">
+        <h3>2020</h3>
+    </div>
+
+    <div class="achievement-content">
+
+        <div class="achievement-item">
+            <h4>COVID-19: Special Course for Informal Healthcare Providers</h4>
+            <p>Certified by Muktopaath</p>
+            <a href="certificates/download4.jpg" target="_blank" class="certificate-btn">
+             View Certificate
+          </a>
+        </div>
+
+        <div class="achievement-item">
+            <h4>Coronavirus Disease (COVID-19)</h4>
+            <p>Certified by Muktopaath</p>
+        
+         
+         <a href="download.png" target="_blank" class="certificate-btn">
+        View Certificate
+        </a>
+       </div>
+        <div class="achievement-item">
+            <h4>COVID-19 Awareness and Prevention</h4>
+            <p>Certified by Muktopaath</p>
+          <a href="certificates/download6.jpg"
+       target="_blank"
+       class="certificate-btn">
+       View Certificate
+    </a>
+
+        </div>
+
+    </div>
+
+</div>
+    
+  <div class="achievement-box">
+    <div class="achievement-year">
+        <h3>2018</h3>
+    </div>
+
+    <div class="achievement-content">
+        <div class="achievement-item">
+            <h4>5th Place in National Quiz Competition</h4>
+            <p>Chittagong Division</p>
+        </div>
+    
+
+   </div>
+</div>
+  <div class="achievement-box">
+    <div class="achievement-year">
+        <h3>2015</h3>
+    </div>
+
+    <div class="achievement-content">
+        <div class="achievement-item">
+            <h4>1st Prize in Writing Competition</h4>
+            <p>High School Level Competition</p>
+        </div>
+    </div>
+</div>
+
+<div class="achievement-box">
+    <div class="achievement-year">
+        <h3>2014-17</h3>
+    </div>
+
+    <div class="achievement-content">
+        <div class="achievement-item">
+            <h4>Best Delegate Certificate</h4>
+            <p>BNCC Camp (2014, 2015 & 2017)</p>
+        </div>
+    </div>
+</div>
+
+<div class="achievement-box">
+    <div class="achievement-year">
+        <h3>2008-17</h3>
+    </div>
+
+    <div class="achievement-content">
+        <div class="achievement-item">
+            <h4>10 Times First Place in Running Competition</h4>
+            <p>Annual School Sports Competition</p>
+        </div>
+    </div>
+</div>
+      
+ <section id="hobbies">
+    <h2 class="section-title">My Hobbies</h2>
+
+    <div class="hobbies-grid">
+
+        <div class="hobby-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Competitive Programming</h3>
+            <p>I enjoy solving algorithmic problems and improving my logical thinking skills.</p>
+        </div>
+
+        <div class="hobby-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Web Development</h3>
+            <p>Building responsive websites and learning modern web technologies is one of my favorite hobbies.</p>
+        </div>
+
+        <div class="hobby-card">
+            <i class="fa-solid fa-futbol"></i>
+            <h3>Sports</h3>
+            <p>I love playing football and outdoor sports to stay active and energetic.</p>
+        </div>
+
+        <div class="hobby-card">
+            <i class="fa-solid fa-gamepad"></i>
+            <h3>Gaming</h3>
+            <p>I enjoy strategy and adventure games which improve focus and decision making.</p>
+        </div>
+
+        <div class="hobby-card">
+            <i class="fa-solid fa-book-open"></i>
+            <h3>Learning New Technologies</h3>
+            <p>I love exploring new programming languages, frameworks, and software tools.</p>
+        </div>
+        <div class="hobby-card">
+    <i class="fa-solid fa-pen-ruler"></i>
+    <h3>Graphic Designing</h3>
+    <p>I enjoy creating creative visual designs, editing graphics, and improving my design skills through practice.</p>
+</div>
+
+    </div>
+</section>
+
+  <section id="publications">
+    <h2 class="section-title">Publications</h2>
+
+    <div class="publication-grid">
+
+        <div class="publication-card">
+            <i class="fa-solid fa-book-open"></i>
+            <h3>Research Paper (Upcoming)</h3>
+            <p>
+                Currently working on future academic research and planning to publish papers in Software Engineering and Web Development.
+            </p>
+        </div>
+
+        <div class="publication-card">
+            <i class="fa-solid fa-file-lines"></i>
+            <h3>Technical Articles</h3>
+            <p>
+                Planning to write and publish technical articles based on programming, development, and problem solving.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+</section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            
+            <div class="contact-container">
+                <div class="contact-info-panel">
+                    <div class="panel-header">
+                        <h3>Get In Touch</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/C231045" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.facebook.com/abdur.rahman.17011?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/abdur-rahman-167703261/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-list">
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <span class="label">Location</span>
+                                <span class="value">Chawkbazar, Chittagong, Bangladesh</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <span class="label">Email</span>
+                                <span class="value"><a href="mailto:c231045@ugrad.iiuc.ac.bd">c231045@ugrad.iiuc.ac.bd</a></span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <div>
+                                <span class="label">Profession</span>
+                                <span class="value">Student, CSE, IIUC, Chittagong, Bangladesh</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <span class="label">Mobile Number</span>
+                                <span class="value">01701711591</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-language"></i>
+                            <div>
+                                <span class="label">Languages</span>
+                                <span class="value">Bangla, English, Hindi, Urdu, Indo-Aryan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel">
+                    <form id="contact-form" class="contact-form" action="contact-form" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>YOUR NAME</label>
+                                <input type="text" name="name" placeholder="YOUR NAME" required>
+                            </div>
+                            <div class="form-group">
+                                <label>YOUR EMAIL</label>
+                                <input type="email" name="email" placeholder="YOUR EMAIL" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>ENTER SUBJECT</label>
+                            <input type="text" name="subject" placeholder="ENTER SUBJECT" required>
+                        </div>
+                        <div class="form-group">
+                            <label>MESSAGE</label>
+                            <textarea name="message" placeholder="Message Here.." rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Submit Message</button>
+                      <div id="success-message" style="display:none; color:#00ff88; margin-top:15px;">✔ Message sent successfully!</div>
+                     <div id="error-message" style="display:none; color:#ff4d4d; margin-top:15px;"> ✖ Failed to send message! Please check your email and try again.</div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 | All Rights Reserved.</p>
+        <div class="links">
+        </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
