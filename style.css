@@ -672,10 +672,7 @@
             transition: all 0.3s ease;
             cursor: pointer;
         }
-           .contact-info-panel:hover {
-           transform: translateY(-10px);
-           box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-      }
+
         .panel-header {
             display: flex;
             justify-content: space-between;
@@ -732,13 +729,7 @@
             transition: all 0.3s ease;
             cursor: pointer;
         }
-        .contact-form-panel:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-     }
-           .contact-form-panel:active {
-           transform: scale(0.98);
-       }
+        
         .contact-form {
             display: flex;
             flex-direction: column;
@@ -779,17 +770,31 @@
         .btn-submit {
             background-color: #14532D;
             color: #ffffff;
-            padding: 14px;
+            width: 100%;
+            padding: 15px;
             border: none;
-            border-radius: 8px;
-            font-weight: 700;
-            font-size: 15px;
+            border-radius: 10px;
+            background: #14532D;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
             cursor: pointer;
-            transition: background-color 0.3s;
-        }
+            transition: all 0.3s ease;
+            
+}
+      .btn-submit:hover {
+    background: #166534;
+    transform: scale(1.06);
+    
+} 
+
         .btn-submit:hover {
             background-color: #14532D;
         }
+   .btn-submit:active {
+    transform: scale(0.96);
+}
+
         footer {
             background-color: var(--primary-color);
             color: #64748B;
@@ -1134,13 +1139,12 @@
     font-size: 15px;
 }
 
-/* Hover */
 .publication-card:hover {
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
-/* Click */
+
 .publication-card:active {
     transform: scale(0.97);
 }
