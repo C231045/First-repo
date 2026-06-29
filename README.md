@@ -221,7 +221,6 @@ Project: Personal Portfolio Website
 🎯 Project Completed By
 Abdur Rahman
 CSE Student, IIUC
-Batch: 2024-25
 Student ID: C231045
 
 <<<<<<< HEAD

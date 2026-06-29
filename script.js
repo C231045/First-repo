@@ -48,14 +48,19 @@ form.addEventListener("submit", async function(e) {
     errorMsg.style.display = "block";
     return;
 }
+     const btn = document.querySelector(".btn-submit"); 
+     btn.innerText = "Sending...";
+    try {   
+        successMsg.style.display = "block";
+         form.reset();
 
-    try {
-        const response = await fetch(
+          await fetch(
             "https://script.google.com/macros/s/AKfycbznJAzyVFRy-yRDIHTzNTn6dz1ay5n9RQAglfPvww-8p9plhyW9f-ij1h8S-wL8Qw4Z/exec",
             {
                 method: "POST",
                 mode: "no-cors",
-                headers: {
+                headers: 
+                {
                     "Content-Type": "application/json"
                 },
                 body: new URLSearchParams({
@@ -67,10 +72,10 @@ form.addEventListener("submit", async function(e) {
             }
         );
 
-       successMsg.style.display = "block";
-    form.reset();
+        btn.innerText = "Submit Message";
 
 } catch (error) {
     errorMsg.style.display = "block";
+    btn.innerText = "Submit Message";
 }
 });
